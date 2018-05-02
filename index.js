@@ -25,13 +25,20 @@ THE SOFTWARE.
 /**
  *  Converts an array to the enum object
  *
- * @param {Array} enumList - list of enum keys
- * @returns {Object}
+ * @param {Array|...String} enumList - list of enum keys
+ * @returns {Object|null}
  */
 function enumize(enumList) {
+    let source;
+    if (Array.isArray(enumList))
+        source = enumList;
+    else if (typeof(enumList) === 'string')
+        source = [...arguments];
+    else
+        return null;
     const result = {};
-    for (let i = 0; i < enumList.length; ++i)
-        result[enumList[i]] = i;
+    for (let i = 0; i < source.length; ++i)
+        result[source[i]] = i;
     return result;
 }
 
