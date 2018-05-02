@@ -28,9 +28,11 @@ THE SOFTWARE.
  * @param {Array} enumList - list of enum keys
  * @returns {Object}
  */
-export default function enumize(enumList) {
+function enumize(enumList) {
     const result = {};
     for (let i = 0; i < enumList.length; ++i)
         result[enumList[i]] = i;
     return result;
 }
+
+module.exports = enumize;
