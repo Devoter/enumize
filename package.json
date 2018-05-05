@@ -1,6 +1,6 @@
 {
   "name": "enumize",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple js enum object creator",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,14 @@
     "enum",
     "enumize"
   ],
+  "homepage": "https://github.com/Devoter/enumize",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Devoter/enumize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Devoter/enumize/issues"
+  },
   "author": "Alexey Nosov",
   "license": "MIT"
 }
