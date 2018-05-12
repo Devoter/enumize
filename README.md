@@ -2,6 +2,8 @@
 
 Simple js functions converts arrays to enum objects.
 
+[![Coverage Status](https://coveralls.io/repos/github/Devoter/enumize/badge.svg?branch=master)](https://coveralls.io/github/Devoter/enumize?branch=master)
+
 ## Installation
 
 `npm install enumize`
