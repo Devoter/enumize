@@ -4,7 +4,7 @@
   "description": "Simple js enum object creator",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
     "enum",
@@ -19,5 +19,8 @@
     "url": "https://github.com/Devoter/enumize/issues"
   },
   "author": "Alexey Nosov",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
 }
