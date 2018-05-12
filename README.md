@@ -2,7 +2,7 @@
 
 Simple js functions converts arrays to enum objects.
 
-[![Coverage Status](https://coveralls.io/repos/github/Devoter/enumize/badge.svg?branch=master)](https://coveralls.io/github/Devoter/enumize?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Devoter/enumize/badge.svg?branch=master)](https://coveralls.io/github/Devoter/enumize?branch=master) [![Build Status](https://travis-ci.org/Devoter/enumize.svg?branch=master)](https://travis-ci.org/Devoter/enumize)
 
 ## Installation
 
