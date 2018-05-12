@@ -25,3 +25,7 @@ const myEnum = enumize('zero', 'one', 'two');
 
 console.log(myEnum.one); // 1
 ```
+
+## License
+
+[MIT](LICENSE)
