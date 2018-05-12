@@ -1,6 +1,6 @@
 {
   "name": "enumize",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple js enum object creator",
   "main": "index.js",
   "scripts": {
