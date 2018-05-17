@@ -31,3 +31,6 @@ console.log(myEnum.one); // 1
 ## License
 
 [MIT](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDevoter%2Fenumize.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDevoter%2Fenumize?ref=badge_large)
